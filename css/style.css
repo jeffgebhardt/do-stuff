@@ -1,0 +1,49 @@
+.container{
+  margin: 0 auto;
+  width: 500px;
+}
+
+#board{
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.headerWrap{
+  background-color: grey;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonBar{
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+button{
+  color: white;
+  font-family: 'Lobster', cursive;
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 25px;
+}
+
+h2{
+  color: white;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
